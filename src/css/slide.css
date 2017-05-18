@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+#content .slide {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-color: #F2FAFF;
+}
+
+#content .slide header {
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    padding-top: 115px;
+    padding-left: 96px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#content .slide header h1 {
+    wdith: 430px;
+
+    font-family: NanumSquareOTFL;
+    font-size: 48px;
+    color: #024174;
+    letter-spacing: 0;
+    line-height: 58px;
+    font-weight: 100;
+}
+
+#content .slide header h3 {
+    margin-top: 16px;
+    width: 492px;
+    font-family: NanumSquareOTFR;
+    font-size: 14px;
+    color: #68828F;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+#img_cloud {
+    position: absolute;
+    height: 179px;
+    top: 151px;
+    right: 0;
+}

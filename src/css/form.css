@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#content .form .dropdown{
+    position: absolute;
+    top: -1px;
+    left: 0;
+    max-width:120px;
+}
+
+#content .form .dropdown .dropdown-text {
+    height: 46px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+#content .form {
+    position: absolute;
+    top: -23px;
+    padding-left: 120px;
+    left:0; right:0; margin-left:auto; margin-right:auto;
+    width: 100%;
+    max-width: 743px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8ED;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.13);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#content .inp-wrap .port,
+#content .inp-wrap .eth,
+#content .inp-wrap .ip {
+    display: inline-block;
+    height: 46px;
+    border-right: 1px solid #E2E8ED;
+}
+
+#content .inp-wrap .eth input.done,
+#content .inp-wrap .port input.done,
+#content .inp-wrap .ip input.done {
+    color: #007FFF;
+    -webkit-transition: color, background-color .25s;
+    -moz-transition: color, background-color .25s;
+    -ms-transition: color, background-color .25s;
+    -o-transition: color, background-color .25s;
+    transition: color, background-color .25s;
+}
+#content .inp-wrap .eth input.error,
+#content .inp-wrap .port input.error,
+#content .inp-wrap .ip input.error {
+    color: #D43434;
+    background-color: rgba(255,0,0,0.15);
+    -webkit-transition: color, background-color .25s;
+    -moz-transition: color, background-color .25s;
+    -ms-transition: color, background-color .25s;
+    -o-transition: color, background-color .25s;
+    transition: color, background-color .25s;
+}
+#content .inp-wrap .ip {
+    border-right: none;
+    min-width: 295px;
+    max-width: 295px;
+}
+#content .inp-wrap input {
+    display: inline-block;
+    width: auto;
+    font-size: 14px;
+    padding: 0 28px;
+    border: none;
+    line-height: 44px;
+    vertical-align: middle;
+    margin: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#content .inp-wrap .port input {
+    max-width: 90px; /*73*/
+}
+#content .inp-wrap .eth input {
+    max-width: 86px;
+}
+#content .inp-wrap .ip input {
+    width: 100%;
+}
+
+#content .inp-wrap .port,
+#content .inp-wrap .eth,
+#content .inp-wrap .ip {
+    float: left;
+}
+
+
+#content .inp-wrap .btn.password .ico {
+    position: absolute;
+    left: 14px;
+    top: 6px;
+    fill: #fff;
+}
+
+#content .inp-wrap .btn.password.disable:hover {
+    background: #8f9aa5;
+    box-shadow: 0 2px 3px 0 rgba(143,154,165,0.50);
+    cursor: not-allowed;
+}
+#content .inp-wrap .btn.password:hover {
+    background: #006edc;
+    cursor: pointer;
+}
+#content .inp-wrap .btn.password {
+    position: absolute;
+    top:3px;
+    right: 12px;
+    font-size: 14px;
+    padding: 10px 17px 10px 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+

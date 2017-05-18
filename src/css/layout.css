@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.layout-center {
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.layout-bottom {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}

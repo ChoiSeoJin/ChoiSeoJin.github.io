@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* 버튼 공통 */
+.btn {
+    display: inline-block;
+    padding: 13px 17px;
+    color: #fff;
+    background: #007FFF;
+    box-shadow: 0 2px 3px 0 rgba(0,127,255,0.50);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* IE 10+ */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn.disable {
+    background: #8f9aa5;
+    box-shadow: 0 2px 3px 0 rgba(143,154,165,0.50);
+}
+
+/* 삭제하기 버튼 */
+.btn.delete:hover {
+    background: #c33232;
+}
+.btn.delete {
+    background: #D43434;
+    box-shadow: 0 2px 3px 0 rgba(211,51,51,0.50);
+}
+
+/* 버튼 이면서 아이콘만 존재하는 버튼인 경우 재정의 */
+.btn.clear {
+    padding: 0;
+}
+
+.btn.install.disable:hover,
+.btn.install.disable {
+    background: #8f9aa5;
+    box-shadow: 0 2px 3px 0 rgba(143,154,165,0.50);
+    cursor: not-allowed;
+}
+.btn.install:hover {
+    background: #006edc;
+    cursor: pointer;
+}
+.btn.install .ico {
+    position: absolute;
+    top: 10px;
+    left: 254px;
+    fill: #fff;
+}
+.btn.install {
+    position: relative;
+    margin-top: 24px;
+    text-align: center;
+    width: 100%;
+}
